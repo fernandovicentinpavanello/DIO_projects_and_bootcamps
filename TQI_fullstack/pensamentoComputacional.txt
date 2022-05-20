@@ -1,0 +1,73 @@
+Pensamento Computacional
+
+E1 -> Introdução
+
+Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+
+Sistemático e eficiente → Formulação e resolução de problemas → Tanto máquina como ser humano devem ser capaz de resolver
+
+→ É uma habilidade generalista
+
+Está baseado em 4 pilares:
+
+1. Decomposição
+2. Reconhecimento de padrões
+3. Abstração
+4. Design de algoritmos
+5. Refinamento
+6. Raciocínio Lógico
+
+→ decomposição nada mais é do que dividir um problema complexo em subproblemas. ( receita de bolo, busca binária, quebra-cabeça, ...)
+
+→ reconhecimento de padrões é identificar padrões ou tendências ( similaridades e diferenças entre os problemas, padrão comportamental)
+
+→ a abstração consiste em extrapolar o conceito do problema para uma forma generalista
+
+→ design de algoritmos realiza a automatização da resolução de problemas, definimos o passo a passo da solução de problemas
+
+--> Input → Operator → Output
+
+Processo contínuo: Refinamento / Teste / Análise
+
+Definir uma solução / Testar a solução / Aperfeiçoamento da solução encontrada
+
+→ Overview: 
+
+1. Abstração : Resolução de problemas [Habilidade Humana];
+2. Automatização: Expressão de solução [Habilidade Humana];
+3. Análise: Execução da solução e avaliação (refinamento) [Recursos computacionais].
+
+- Compêtências: 
+	- Pensamento sistemático;
+	- Colaboração dentro da equipe;
+	- Criatividade e design;
+	- Facilitador
+
+E2 -> Habilidades Complementares
+
+Habilidades:
+
+	→ Raciocinínio Lógico : é uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema. Habilidade de treinamento. 
+
+		→ Classificação: 
+
+			- Indução: Fenômeno observado -> Leis e teorias (Ciências experimentias)
+			- Dedução: Leis e teorias -> Previsões e explicações (Ciências exatas)
+			- Abdução: Conclusão -> Premissa (a partir de uma observação, tiramos outra conclusão) (Processo investigativo, Diagnósticos)
+
+		Inferência -> Sintética -> Abdução
+								-> Indução
+
+				   -> Analítica -> Dedução		 
+
+
+	→ Aperfeiçoamento: A partir de uma solução, determinar pontos de melhora e refinamento.   
+
+		-> Ato de aperfeiçoar:
+			→ Melhor uso de resursos: 
+				- Encontrar solução eficiente
+				- Otimizar processos
+
+			→ Melhorar códigos e algoritmos:
+				- Simplificar linhas de códigos
+				- Funções bem definidas
