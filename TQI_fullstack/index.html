@@ -4,11 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <title>→ Portifolio | Luiz Pavanello</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hi, my name is Luiz Fernando Pavanello.</h1>
-    <script src="script.js"></script>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="" />
+          </div>
+          <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">My Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About me</a>
+              </li>
+              <li class="nav__item">
+                <a href="#work" class="nav__link">Projects</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+
+    <!-- About me -->
+    <section>
+        <header>
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Luiz Fernando <br> Pavanello</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                I'm a Brazilian software developer. I'm 36 years old, from Vinhedo | SP, Brazil.<br />
+                I am a Software Development Student, passionate about
+                technology, who finally decided to pursue my Dream of being a
+                Programmer, currently working as a freelancer.<br/>
+                I'm also a student of the <a href="https://web.dio.me/track/tqi-fullstack-developer"> TQI Fullstack Developer</a> course at Dio.
+            </p>
+            <img
+            src="https://avatars.githubusercontent.com/u/29665300?s=400&u=2acb5653206b881362210d4a738a6ed48e0b8f47&v=4"
+            alt="a picture of Luiz Pavanello"
+            class="intro__img"
+          />
+        </header>
+        <article>
+            <header>
+                <h3>Blog Posts and Repositories</h3>
+            </header>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>    
+        </article>      
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/fernandovicentinpavanello">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a
+              class="social-list__link"
+              href="https://www.linkedin.com/in/luizfernandopavanello/"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="http://dribbble.com">
+              <i class="fas fa-at"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com/luizferpava">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <p>Luiz Fernando Pavanello | Copyright 2022</p>
+      </footer>
+
+    
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
