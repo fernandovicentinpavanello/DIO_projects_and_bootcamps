@@ -348,6 +348,10 @@ header {
   margin: 0 auto;
 }
 
+.about-me__body a {
+  color: var(--clr-accent);
+}
+
 .about-me__img {
   box-shadow: var(--bs);
 }
@@ -400,6 +404,10 @@ header {
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
+}
+
+.image__icon {
+  margin: auto;
 }
 
 .portfolio__img {

@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>→ Portfolio | Luiz Pavanello</title>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luiz Fernando Pavanello | Portfolio Website</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -18,103 +15,186 @@
       crossorigin="anonymous"
     />
 
-    <!-- Update these with your own fonts -->
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Header -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="assets/img/logo.png" alt="" />
-          </div>
-          <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-          </button>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-              <li class="nav__item">
-                <a href="#services" class="nav__link">My Services</a>
-              </li>
-              <li class="nav__item">
-                <a href="#about" class="nav__link">About me</a>
-              </li>
-              <li class="nav__item">
-                <a href="#work" class="nav__link">Projects</a>
-              </li>
-            </ul>
-          </nav>
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Projects</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- About me -->
-    <section>
-        <header>
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Luiz Fernando <br> Pavanello</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Luiz Fernando <br> Pavanello</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Software Development Student
+        </p>
+        <img
+        src="https://avatars.githubusercontent.com/u/29665300?s=400&u=2acb5653206b881362210d4a738a6ed48e0b8f47&v=4"
+        alt="a picture of Luiz Pavanello"
+        class="intro__img"
+      />
+      </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+          <div class="service">
+            <h3>Git ,GitHub, Linux & Unix</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          
+          <div class="service">
+            <h3>HTML, CSS, Javascript</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          
+          <div class="service">
+            <h3>Python</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          
+        </div>
+        
+        <a href="#work" class="btn">My Work</a>
+      </section>
+  
+      <!-- About me -->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Software Developer
+        </p>
+  
+        <div class="about-me__body">
+            <p>
                 I'm a Brazilian software developer. I'm 36 years old, from Vinhedo | SP, Brazil.<br />
                 I am a Software Development Student, passionate about
                 technology, who finally decided to pursue my Dream of being a
                 Programmer, currently working as a freelancer.<br/>
                 I'm also a student of the <a href="https://web.dio.me/track/tqi-fullstack-developer"> TQI Fullstack Developer</a> course at Dio.
-            </p>
-            <img
-            src="https://avatars.githubusercontent.com/u/29665300?s=400&u=2acb5653206b881362210d4a738a6ed48e0b8f47&v=4"
-            alt="a picture of Luiz Pavanello"
-            class="intro__img"
-          />
-        </header>
-        <article>
-            <header>
-                <h3>Blog Posts and Repositories</h3>
-            </header>
+            </p>  
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </p>    
-        </article>      
+                I'm Working on building a more open and connected world that offers
+                the same opportunities for all people. <br />
+                I'm learning new programming languages to be a Software Engineer in
+                the new future! <br />
+            </p>
+        </div>
+  
+        <img
+          src="assets/img/me.png"
+          alt="Luiz with a big smile on suit"
+          class="about-me__img"
+        />
+      </section>
+  
+       <!-- Image of a Student -->
+    <div class="portfolio">
+        
+        <a href="#" class="portfolio__item image__icon">
+          <img src="assets/img/d7215096633503.5eb2d4cd14082-e1592149941433.gif" alt=""  />
+        </a>
+    </div>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My projects</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of Projects
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="assets/img/bbra.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="assets/img/portfolio-08.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="assets/img/y.png" alt="" class="portfolio__img" />
+        </a>
+
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <ul class="social-list">
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/fernandovicentinpavanello">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a
-              class="social-list__link"
-              href="https://www.linkedin.com/in/luizfernandopavanello/"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="http://dribbble.com">
-              <i class="fas fa-at"></i>
-            </a>
-          </li>
-          <li class="social-list__item">
-            <a class="social-list__link" href="https://twitter.com/luizferpava">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-        <p>Luiz Fernando Pavanello | Copyright 2022</p>
-      </footer>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/fernandovicentinpavanello">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/luizfernandopavanello/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://dribbble.com">
+            <i class="fas fa-at"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/luizferpava">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+      <p>Luiz Fernando Pavanello | Copyright 2022</p>
+    </footer>
 
-    
-    
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
